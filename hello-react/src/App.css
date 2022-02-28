@@ -1,0 +1,58 @@
+.App {
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+}
+
+.Navbar {
+background-color: rgba(44, 30, 88, 0.781);
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 20px;
+}
+
+.Section1 {
+  background-color: rgba(44, 30, 88, 0.781);
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.Section2 {
+  display: flex;
+  flex-direction: row;
+  padding: 20px; 
+
+}
+
+.Title {
+ font-size: 2em;
+ width: 35%;
+ text-align: left;
+ margin-bottom: -30px;
+}
+
+.Text {
+  font-size: 1.3em;
+  width: 30%;
+  text-align: left;
+}
+
+.Button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Button > button{
+  padding: 15px 60px 15px 60px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
